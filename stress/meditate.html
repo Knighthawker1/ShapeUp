@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>>Shape Up! | Meditation</title>
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/meditate.css">
+	<link rel="stylesheet" href="../styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+	<script>
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+  </script>
+</head>
+
+<body>
+	<header>
+		<a href="../index.html"><img src="../images/shape_up_logo.png" alt="Shape Up logo" ></a>
+		<h2>Shape Up!</h2>
+		<h3>Find the best fit for you</h3>
+	</header>
+	<nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+  	<ul>
+    	<li><a href="../index.html">Home</a></li>
+    	<li><a href="../strength/index.html">Strength Training</a></li>
+    	<li><a href="../cardio/index.html">Cardio Exercises</a></li>
+    	<li><a href="../stress/index.html" class="current">Stress Relief</a>
+    		<ul>
+    			<li><a href="stress/index.html">What is Stress?</a></li>
+    			<li><a href="stress/tips.html">5 Helpful Tips</a></li>
+    			<li><a href="stress/meditate.html" class="current">Meditation</a></li>
+    			<li><a href="stress/vipassana.html">Vipassana</a></li>
+    		</ul>
+    	</li>
+    	<li><a href="index.html">Healthy Diets</a></li>
+		</ul>
+  </nav>
+	<main>
+    <section>
+			<h1>What is Meditation?</h1>
+			<p>
+				Meditation is on path towards transforming the mind. Buddhist meditation
+				practices encourage and develop concentration, clarity, and emotional
+				positivity. When you begin a meditation practice, you may learn the patterns
+				and habits of your mind. Meditation offers you a way to cultivate new and
+				more positive ways to approach the things you do throughout your day.
+				Meditation can have a transformative effect and can lead to positive changes
+				as well as a new understanding of life.
+			</p>
+			<h3>You are listeningto Buddhist chanting</h3>
+			<audio controls>
+				<source src="http://www.buddhanet.net/filelib/mp3/chanting/01_-_Praise_of_the_Lotus_Pond.mp3" />
+			</audio>
+			<h3>Listen to 10 positive precepts from a Buddhist monk</h3>
+			<audio controls>
+				<source src="http://www.buddhanet.net/filelib/mp3/chanting/02_-_Amitabha_Sutra.mp3" />
+			</audio>
+			<h3>Learn meditation postures</h3>
+			<div id="VideoPlayer">
+				<iframe src="https://www.youtube.com/embed/Xan_sMc22O4"
+					frameborder="0" allow="autoplay; encrypted-media"
+					allowfullscreen>
+				</iframe>
+			</div>
+		</section>
+		<aside>
+	    <h2>Why Meditate?</h2>
+			<ul>
+				<li><b>Be Happy: </b>meditation causes the pituitary gland in the brain to
+					secrete endorphins that help elevate mood and have a positive effective
+					on the whole body.</li>
+				<li><b>Reduce stress: </b>endorphins also help reduce stress levels in the brain.</li>
+				<li><b>Focus: </b>through meditation you can learn self-discipline so your mind can
+				focus with increased efficency.</li>
+				<li><b>Sleep better: </b>Scientific studies have shows that those who
+				meditate enhance their slow wave sleep pattern which can help fight insomnia.</li>
+				<li><b>Lower blood pressure: </b>research has also shows that meditation can
+					reduce blood pressure both in the short term and later in life.</li>
+				<li><b>Pain relief: </b>the long term practice of meditation can lead to physical
+					changes in the brain that help alter the perception of pain.</li>
+			</ul>
+	  </aside>
+	</main>
+	<footer>
+		<p>&copy; 2019 Shape Up!</p><br>
+		<p>Audio taken from <a href="http://www.buddhanet.net/audio-chant.htm">Buddanet.net</a></p>
+	</footer>
+</body>
+</html>
